@@ -16,6 +16,11 @@
 		BAC3D13B282DCD650099D28D /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D13A282DCD650099D28D /* WordListTests.swift */; };
 		BAC3D145282DCD650099D28D /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D144282DCD650099D28D /* WordListUITests.swift */; };
 		BAC3D147282DCD650099D28D /* WordListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D146282DCD650099D28D /* WordListUITestsLaunchTests.swift */; };
+		BAC3D154282DD18B0099D28D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D153282DD18B0099D28D /* QuestionViewController.swift */; };
+		BAC3D156282DD1940099D28D /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D155282DD1940099D28D /* FinishViewController.swift */; };
+		BAC3D158282DD1AB0099D28D /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D157282DD1AB0099D28D /* ListTableViewController.swift */; };
+		BAC3D15A282DD1BD0099D28D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D159282DD1BD0099D28D /* AddViewController.swift */; };
+		BAC3D15C282DD54F0099D28D /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3D15B282DD54F0099D28D /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		BAC3D140282DCD650099D28D /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC3D144282DCD650099D28D /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		BAC3D146282DCD650099D28D /* WordListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAC3D153282DD18B0099D28D /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		BAC3D155282DD1940099D28D /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		BAC3D157282DD1AB0099D28D /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		BAC3D159282DD1BD0099D28D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BAC3D15B282DD54F0099D28D /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				BAC3D123282DCD640099D28D /* AppDelegate.swift */,
 				BAC3D125282DCD640099D28D /* SceneDelegate.swift */,
 				BAC3D127282DCD640099D28D /* ViewController.swift */,
+				BAC3D153282DD18B0099D28D /* QuestionViewController.swift */,
+				BAC3D155282DD1940099D28D /* FinishViewController.swift */,
+				BAC3D157282DD1AB0099D28D /* ListTableViewController.swift */,
+				BAC3D159282DD1BD0099D28D /* AddViewController.swift */,
+				BAC3D15B282DD54F0099D28D /* ListTableViewCell.swift */,
 				BAC3D129282DCD640099D28D /* Main.storyboard */,
 				BAC3D12C282DCD650099D28D /* Assets.xcassets */,
 				BAC3D12E282DCD650099D28D /* LaunchScreen.storyboard */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC3D156282DD1940099D28D /* FinishViewController.swift in Sources */,
+				BAC3D15C282DD54F0099D28D /* ListTableViewCell.swift in Sources */,
 				BAC3D128282DCD640099D28D /* ViewController.swift in Sources */,
+				BAC3D15A282DD1BD0099D28D /* AddViewController.swift in Sources */,
 				BAC3D124282DCD640099D28D /* AppDelegate.swift in Sources */,
+				BAC3D154282DD18B0099D28D /* QuestionViewController.swift in Sources */,
 				BAC3D126282DCD640099D28D /* SceneDelegate.swift in Sources */,
+				BAC3D158282DD1AB0099D28D /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
